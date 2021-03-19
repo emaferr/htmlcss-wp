@@ -14,7 +14,8 @@
 .container{
     width: 80%;
     margin: auto;
-    background-color: lavender;
+    font-family: Montserrat;
+    color: #9e9e9e;
 }
 
 .main_contain{
@@ -30,20 +31,20 @@
 #upper_head{
     width: 150px;
     height: 60px;
-    border-right: 1px solid lightgrey;
-    background-color: lavenderblush;
 }
 /* <!-- end Upper_head --> */
 
 /* <!-- Navbar --> */
 nav{
-    padding: 25px 10px;
+    padding-top: 25px;
     height: 70px;
-    background-color: lightcyan;
 }
 
 a{
-    background-color: lightgreen;
+    text-decoration: none;
+    font-size: 12px;
+    padding-right: 5px;
+    color: #9e9e9e;
 }
 /* <!-- end Navbar --> */
 
@@ -88,3 +89,8 @@ footer{
 
 
 /* end Structural */
+
+img {
+    width: 100%;
+    height: auto;
+  }
