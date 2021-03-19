@@ -17,10 +17,6 @@
     font-family: Montserrat;
 }
 
-.main_contain{
-    height: 1060px;
-}
-
 img{
     width: 100%;
     height: auto;
@@ -62,8 +58,8 @@ a{
 }
 
 #main_header{
+    font-size: 1.4vw;
     padding: 250px 10px 0px 30px;
-    height: 40px;
     width: 60%;
     color: #fdfdfd;
 }
@@ -96,13 +92,11 @@ h1{
 }
 
 .side_article{
-    height: 400px;
     width: 20%;
 }
 
 .central_article{
     width: 60%;
-    height: 400px;
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -123,12 +117,13 @@ footer{
     height: 40px;
     text-align: center;
     padding-bottom: 50px;
+    padding-top: 20px;
     color: #636363;
 }
 
 footer span{
     color: #df4747;
-    font-size: 20px;
+    font-size: 15px;
 }
 /* <!-- end Footer --> */
 
