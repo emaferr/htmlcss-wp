@@ -1,0 +1,90 @@
+/* Utility */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: lavender;
+}
+
+.main_contain{
+    background-color: beige;
+}
+/* end Utility */
+
+
+/* Structural */
+
+
+/* <!-- Upper_head --> */
+#upper_head{
+    width: 150px;
+    height: 60px;
+    border-right: 1px solid lightgrey;
+    background-color: lavenderblush;
+}
+/* <!-- end Upper_head --> */
+
+/* <!-- Navbar --> */
+nav{
+    padding: 25px 10px;
+    height: 70px;
+    background-color: lightcyan;
+}
+
+a{
+    background-color: lightgreen;
+}
+/* <!-- end Navbar --> */
+
+/* Main_head */
+#main_head{
+    height: 320px;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+.main_title{
+    height: 90px;
+    background-color: cadetblue;
+}
+/* end Main_head */
+
+/* <!-- Body_main  --> */
+.article{
+    float: left;
+    border-radius: 10px;
+}
+
+.side_article{
+    height: 400px;
+    width: 25%;
+    background-color: darkcyan;
+}
+
+.central_article{
+    width: 50%;
+    height: 400px;
+    background-color: slategray;
+}
+/* <!-- end Body_main  --> */
+
+/* <!-- Footer --> */
+footer{
+    height: 90px;
+    background-color: palevioletred;
+}
+/* <!-- end Footer --> */
+
+
+/* end Structural */
